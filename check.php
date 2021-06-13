@@ -31,7 +31,6 @@
             ';
            
           $selected=$_POST['quizcheck'];
-          //print_r($selected);
           $sql="SELECT *FROM question";
           $query=mysqli_query($conn,$sql);
           while($rows=mysqli_fetch_array($query)){
