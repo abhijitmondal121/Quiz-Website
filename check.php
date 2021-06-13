@@ -46,8 +46,7 @@
           <h4 class="card-header">Your Total Score:<span style="margin-left:350px; font-size:30px;"> '.$result.'</h4>
            </div>
            </div>';
-          // print_r($selected);
-           //print_r($rows['ansid']);
+
       }
   }
 
