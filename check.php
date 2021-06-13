@@ -35,7 +35,7 @@
           $sql="SELECT *FROM question";
           $query=mysqli_query($conn,$sql);
           while($rows=mysqli_fetch_array($query)){
-             //print_r($rows['ansid']);
+        
               $check=$rows['ansid']==$selected[$i];
               if($check){
                   $result++;
